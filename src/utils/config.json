@@ -1,0 +1,50 @@
+{
+    "hp": {
+        "spell": {
+            "light": {"x": 3365, "y": 310, "color": [255, 113, 113], "hk": "1"}
+        },
+        "item": {
+            "light": {"x": 3332, "y": 310, "color": [255, 113, 113], "hk": "3"},
+            "strong": {"x": 3320, "y": 310, "color": [255, 113, 113], "hk": "4"}
+        }
+    },
+    "mp": {
+        "item": {
+            "light": {"x": 3352, "y": 324, "color": [128, 125, 255], "hk": "2"}
+        }
+    },
+    "skill_atk": [
+        {"hk":"r", "time": 6000, "cond": false},
+        {"hk":"t", "time": 4000, "cond": false},
+        {"hk":"f", "time": 6000, "cond": true}
+    ],
+    "granico": {"x": 2470, "y": 1108, "color": [220, 151, 111], "hk": "y"},
+    "executioner": {
+        "skill": {"x": 2506, "y": 1115, "color": [101, 24, 43], "hk": "u"},
+        "check_mob": {"x": 2615, "y": 53, "color": [0, 0, 0]},
+        "check_life": {"x": 2600, "y": 55, "color": [66, 67, 67]}
+    },
+    "skill_supp": [
+        {"hk":"F6", "time": 8000, "cond": true},
+        {"hk":"F7", "time": 3000, "cond": true}
+    ],
+    "skill_supp_bkp": [
+        {"hk":"F8", "time": 4000, "cond": true},
+        {"hk":"F1", "time": 3000, "cond": true}
+    ],
+    "startcombo": ["l"],
+    "endcombo": ["o","g","g","F5","F5"],
+    "food": ["m", "m"],
+    "amulet": {
+        "hk": ",",
+        "life": {"x": 3313, "y": 310, "color": [255, 113, 113]},
+        "slot": {"x": 3291, "y": 178, "color": [234, 234, 234]}
+    },
+    "ring": {
+        "hk": ".",
+        "life": {"x": 3315, "y": 310, "color": [255, 113, 113]},
+        "slot": {"x": 3291, "y": 178, "color": [234, 234, 234]}
+    },
+    "target": {"x": 2584, "y": 49, "color": [255, 0, 0], "hk": "SPACE"}
+}
+
